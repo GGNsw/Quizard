@@ -50,7 +50,7 @@ function correct(){
 
 function share(){
 
-    var url = "http://quizard.com";
+    var url = "https://ggnsw.github.io/Quizard/index.html";
     var text = "I just scored a "+op_chonsok+" out of 10 at quizard.com";
     window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
 
