@@ -1,0 +1,230 @@
+    
+         @font-face {
+               
+                font-family: 'Harry P';
+                src: url('HarryP.woff2') format('woff2'),
+                    url('HarryP.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+         
+         }
+
+         html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-size:120%;
+            background-color: #4d4d4d;
+        }
+          
+        *{
+              
+            box-sizing: border-box; 
+            font-family: 'Harry P';
+            font-weight: normal;
+            font-style: normal;
+              
+        }
+
+          /* Add a black background color to the top navigation */
+          .topnav {
+            
+            background-color: #333;
+            overflow: hidden;
+          
+        }
+
+          /* Style a container for the links inside the navigation bar */
+          .topnav a {
+            
+            float: right;
+            color: #fff;
+            text-align: center;
+            padding: 25px 25px;
+            text-decoration: none;
+            font-size: 35px;
+
+          }
+
+          /* Change the color of links on hover */
+          .topnav a:hover {
+            
+            background-color: #fff;
+            color: black;
+          
+        }
+
+          /* Add a color to the active/current link */
+          .topnav a.active {
+            
+            background-color: #FF9F00;
+            color: #fff;
+
+          }
+
+
+          .footer {
+            
+            background-color: #333;
+            overflow: hidden;
+                      
+        }
+
+        .footer a {
+            
+            float: right;
+            color: #fff;
+            text-align: center;
+            padding: 16px 16px;
+            text-decoration: none;
+            font-size: 18px;
+
+          }
+
+        header{
+
+            text-align: center;
+            background: #000;
+            color: #fff;
+            padding: 10px 0;
+
+        }
+
+        .container{
+
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+
+        }
+
+        section{
+
+            border: 2px solid #FF9F00;
+            border-radius: 7px;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #ffd24d;
+
+        }
+
+        label{
+
+            display: block;
+            padding: 7px;
+            border-radius: 7px;
+            cursor: pointer;
+            border: none;
+            margin-bottom: 3px;
+            margin-top: 3px;
+            background-color: #fff;
+        }
+
+        label:hover{
+
+            background: #FF9F00;
+
+        }
+
+        label:checked {
+            color: green;
+          }
+
+        button{
+
+            width: 80%;
+            display: block;
+            margin: 5px auto;
+            padding: 10px;
+            background-color: #F12D44;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+
+        }
+
+        button:hover{
+
+            background: #000;
+            color: #fff;
+            transition: all .3s;
+            transform: scale(1.1);
+
+        }
+
+        h2{
+            color: #000;
+            text-align: center;
+
+        }
+
+        h1{
+            font-size: 3em;
+            text-align: center;
+            color: #000;
+        }
+
+        #result{
+
+            font-size: 30px;
+            color: #FF9F00;
+
+        }
+
+        #music{
+
+            text-align: center;
+
+        }
+
+        #video{
+
+            max-width:500px;
+            text-align:center
+        }
+        
+        video {
+            display: block;
+            margin: auto;
+          }
+
+          #platform {
+            display: block;
+            margin: auto;
+          }
+
+        #rotulo{
+
+            color:black;
+            font-size:60px;
+
+        }
+
+        #linksa {
+
+            display: inline-block;
+            position: relative; 
+            z-index: 1;
+
+        }
+
+        #linkss {
+
+            display: inline-block;
+
+        }
+        
+        #linkso {
+
+            position: relative; 
+            z-index: -1
+
+        }
+
+        .welcome {
+
+            background-color: #4d4d4d;
+            border: none;
+        }
