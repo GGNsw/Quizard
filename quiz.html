@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+            <head>
+
+              <meta charset="UTF-8">
+              <title>Quizard</title>
+              <link rel="stylesheet" href="CSS\style.css">
+              <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+            </head>
+
+            <body>
+
+            <header style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('images/bgimage1.jpg')" >
+						
+                <div class="topnav">
+                    
+                    <a href="contact.html">Contact</a>
+                    <a href="news.html">News</a>
+                    <a class="active" href="quiz.html">Quiz</a>
+                    <a href="index.html">Home</a>
+                    
+                </div>
+
+                <h1>QUIZARD</h1>
+                <h2>Prove your knowledge.</h2>
+
+			</header>
+						
+            <main>
+            
+            <div class="container">
+            
+                <section id="music">
+                    
+                    <h2>For a more enjoyble experiece we recommend listening to this track while performing the quiz.</h2>
+                    <h3>About this track: This instrunmental was composed in 2001 by John Williams, which was the composer for the three first Harry Potter movies.</h3>
+                    <h3>This particular file is provied by Archive.org in Free Lossless Audio Codec format.</h3>
+                    <audio controls>
+                        <source src="https://ia903100.us.archive.org/22/items/harrypotterandthesorcerersstone_201910/Various%20Artists%20-%20Harry%20Potter%20and%20The%20Sorcerer%27s%20Stone%20Original%20Motion%20Picture%20Soundtrack/01%20-%20Prologue.flac" type="audio/ogg">
+                        <!-- <source src="low.mp3" type="audio/mpeg"> TODO -->
+                      Your browser does not support the audio element.
+                    </audio>
+
+                </section>
+              <section id="q0">
+                <h3>1. Which of these characters has a peculiar interest in unicorn blood?</h3>
+                <label>
+                    <input type="radio" value="1" name="q0" onclick="res(0,this)">A) Voldemort.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q0" onclick="res(0,this)">B) Professor McGonagall.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q0" onclick="res(0,this)">C) Hagrid.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q0" onclick="res(0,this)">D) Cristiano Ronaldo.
+                </label>
+              </section>
+
+              <section id="q1">
+                <h3>2. What role does Harry play in Quidditch?</h3>
+                <div class="video">
+
+                    <video width="500" controls>
+                        <source src="videos/Quidditch.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                      </video> 
+
+                </div>
+                <label>
+                    <input type="radio" value="1" name="q1" onclick="res(1,this)">A) Seeker.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q1" onclick="res(1,this)">B) Beater.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q1" onclick="res(1,this)">C) Keeper.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q1" onclick="res(1,this)">D) Referee.
+                </label>
+              </section>
+
+              <section id="q2">
+                <h3>3. Who plays the role of Harry Potter in the saga?</h3>
+                <label>
+                    <input type="radio" value="1" name="q2" onclick="res(2,this)">A) Tom Felton.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q2" onclick="res(2,this)">B) Rupert Grint.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q2" onclick="res(2,this)">C) Daniel Radcliffe.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q2" onclick="res(2,this)">D) Ed Sheeran.
+                </label>
+              </section>
+
+              <section id="q3">
+                <h3>4. What happens to the stone at the end of the movie?</h3>
+                <label>
+                    <input type="radio" value="1" name="q3" onclick="res(3,this)">A) Voldemort grabs it.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q3" onclick="res(3,this)">B) It's destroyed.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q3" onclick="res(3,this)">C) Hagrid eats it.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q3" onclick="res(3,this)">D) Ron steals it.
+                </label>
+              </section>
+
+              <section id="q4">
+                <h3>5. What giant game did Harry and his friends have to play in order to get to the stone?</h3>
+                <label>
+                    <input type="radio" value="1" name="q4" onclick="res(4,this)">A) Fifa 2001.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q4" onclick="res(4,this)">B) Checkers.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q4" onclick="res(4,this)">C) Chess.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q4" onclick="res(4,this)">D) Poker.
+                </label>
+              </section>
+
+              <section id="q5">
+                <h3>6. What is the name of the relatives that Harry lives with in Surrey?</h3>
+                <label>
+                    <input type="radio" value="1" name="q5" onclick="res(5,this)">A) The weasleys.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q5" onclick="res(5,this)">B) The Dursleys.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q5" onclick="res(5,this)">C) The Potters.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q5" onclick="res(5,this)">D) The Dummeys.
+                </label>
+              </section>
+
+              <section id="q6">
+                <h3>7. Who wins the House Cup for Gryffindor?</h3>
+                <label>
+                    <input type="radio" value="1" name="q6" onclick="res(6,this)">A) Hermione.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q6" onclick="res(6,this)">B) Cristiano Ronaldo.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q6" onclick="res(6,this)">C) Ron.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q6" onclick="res(6,this)">D) Neville.
+                </label>
+              </section>
+
+              <section id="q7">
+                <h3>8. Ron, Hermione and Harry find Fluffy on a restricted floor in the school. Whose dog is it?</h3>
+                <label>
+                    <input type="radio" value="1" name="q7" onclick="res(7,this)">A) Dumbledore.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q7" onclick="res(7,this)">B) Hagrid.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q7" onclick="res(7,this)">C) Voldemort.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q7" onclick="res(7,this)">D) Snape.
+                </label>
+              </section>
+
+              <section id="q8">
+                <h3>9. Which secret platform at King's Cross Station gets the train to Hogwarts?</h3>
+
+                <img src="images/Platform.png" alt="Platform" width="250" height="300" id="platform"> 
+
+                <label>
+                    <input type="radio" value="1" name="q8" onclick="res(8,this)">A) 9 1/4.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q8" onclick="res(8,this)">B) 9 1/2.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q8" onclick="res(8,this)">C) 9 3/4.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q8" onclick="res(8,this)">D) 9 2/4.
+                </label>
+              </section>
+
+              <section id="q9">
+                <h3>10. Lord Voldemort lived in the body of/of...</h3>
+                <label>
+                    <input type="radio" value="1" name="q9" onclick="res(9,this)">A) Cristiano Ronaldo.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="q9" onclick="res(9,this)">B) Dumbledore.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="q9" onclick="res(9,this)">C) Professor Quirrell.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="q9" onclick="res(9,this)">D) Draco Malfoy.
+                </label>
+              </section>
+
+              <section id="buttons">
+                <button onclick="correct()">SEND</button>
+                <button onclick="window.location.reload();" >TAKE AGAIN</button>
+                <h2>Correct: <span id="result"></span>/10</h2>
+                <div id="share" style="display: none;">
+                    <button onclick="share()">SHARE ON TWITTER</button>
+                </div>
+                
+            </section>
+            </main>
+
+            <footer>
+              
+                <div class="footer">
+    
+                  <a>GGNSW 2022.</a>
+                  
+                </div>
+                
+                
+                </footer>
+
+            <script src="script.js"></script>
+
+            </body>
+
+</html>
